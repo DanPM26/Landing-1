@@ -1,0 +1,284 @@
+body {
+    background-color: aliceblue;
+    margin: 0px ;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; 
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.nav-left{
+padding-left: 40px;
+}
+
+.nav-left a {
+    text-decoration: none;
+    color:black;
+}
+
+.nav-left a:hover {
+    padding: 20px;
+    border: 1px solid gray;   
+}
+
+.logo {
+    border: 3px solid black;
+    margin: 10px; 
+    width: 80px;
+    height: 80px;
+   text-align: center;
+   position:relative;
+   left: 150px;
+   font-family: serif;
+  
+}
+
+.nav-rigth {
+    padding-right: 20px;
+}
+.nav-rigth a {
+    text-decoration: none;
+    padding: 20px;
+    color:black;
+}
+.nav-rigth a:hover {
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+.jumbotron {
+    background-image: url("https://i.picsum.photos/id/1045/3936/2624.jpg?hmac=PMfAbC94Asle_jgeRYsj7zQHFabfTfsIwL247Ewetwc");
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border: 1px solid transparent; 
+}
+.first-text {
+    text-align: center;
+    padding-top: 200px;
+    color:azure; 
+}
+
+h1,
+.first-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+h2,
+.first-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.promotion {
+    border: 1px solid transparent;
+    padding: 150px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.what {
+    text-align: center;
+    padding: 30px;
+}
+
+.how {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    text-align: center;
+}
+
+.focus-on {
+    display: flex;
+    border: 1px solid rgb(189, 188, 188);
+    background-color: rgb(189, 188, 188);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.show-us {
+    justify-content: left;
+    align-items: center;
+    text-align: center; 
+    width: 40%;
+    height: 100%;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+font-size: 20px;
+font-family: monospace;
+color: azure ;
+
+}
+
+.container-grid {
+    padding: 10px;
+}
+
+.container-images {
+    display: grid;
+    width: 30%;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(3,200px);
+    gap: 10px 15px;
+   
+}
+
+.image-1 {
+    display:flex;
+    align-self: stretch;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.image-2 {
+    display:flex;
+    align-self: stretch;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+.image-3 {
+    display:flex;
+    align-self: stretch;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.image-4 {
+    display:flex;
+    align-self: stretch;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+.image-5 {
+    display:flex;
+    align-self: stretch;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+.image-6 {
+    display:flex;
+    align-self: stretch;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+.image-7 {
+    display:flex;
+    align-self: stretch;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+.image-8 {
+    display:flex;
+    align-self: stretch;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+.image-9 {
+    display:flex;
+    align-self: stretch;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.phrase {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    border: 1px solid transparent; 
+    padding-top: 100px; 
+    padding-bottom: 30px; 
+    padding-left: 50px;
+    padding-right: 50px; 
+}
+
+.box {
+    border: 1px solid rgb(218, 215, 215);
+    border-radius: 20px;
+    background-color: rgb(218, 215, 215);
+    color: aliceblue;
+    text-align: center;
+    font-family: monospace; 
+    font-size: 25px;
+    padding: 20px;
+    -webkit-transition: background-color 1s linear;
+  transition: background-color 1s linear;
+}
+.box:hover {
+background-color: rgb(55, 61, 56);
+}
+
+.contact {
+    float: center;
+   text-align: center;
+   border: 1px solid transparent; 
+   padding: 100px;
+   color:rgb(128, 134, 139);
+   font-size: 30px;
+}
+
+footer {
+    background-color: antiquewhite;
+    margin: 0px; 
+    display: flex;
+    justify-content: space-around; 
+}
+.logo-left {
+    float: left;
+}
+.email {
+    float: center;
+   align-self: center;
+   font-size: 20px;
+}
+
+.social-media {
+    float: right;
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    gap: 50px;
+    align-items: center;
+    -webkit-transition: background-color 0.5s linear;
+  transition: background-color 0.5s linear;
+}
+
+.twitter {
+    border-radius: 50px;
+    background-color: rgb(185, 164, 164);
+}
+.twitter:hover {
+    background-color: antiquewhite;
+}
+
+
+.facebook {
+    border-radius: 50px;
+    background-color: rgb(185, 164, 164);
+}
+.facebook:hover {
+    background-color: antiquewhite;
+}
+
+
+.instagram {
+    border-radius: 50px;
+    background-color: rgb(185, 164, 164);
+}
+.instagram:hover {
+    background-color: antiquewhite;
+}
+
+@media (max-width: 700px) {
+
+}
+
+  
