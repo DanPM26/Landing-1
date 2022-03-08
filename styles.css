@@ -12,6 +12,8 @@ body {
 .design {
     padding: 20px;
     text-align: center;
+    font-family: monospace;
+    font-size: 15px;
 }
 
 header {
