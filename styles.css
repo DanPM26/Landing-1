@@ -1,7 +1,23 @@
 body {
     background-color: aliceblue;
-    margin: 0px ;
+    margin: 0px;
 }
+
+.designs {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 30px;
+    margin: 0px;
+}
+.design {
+    padding: 20px;
+    text-align: justify;
+}
+
+header {
+    background-color: rgb(243, 240, 240);
+    margin: 0px;
+} 
 
 .navbar {
     display: flex;
@@ -112,12 +128,11 @@ h2,
     width: 40%;
     height: 100%;
   padding-top: 15px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 font-size: 20px;
 font-family: monospace;
 color: azure ;
-
 }
 
 .container-grid {
@@ -227,7 +242,7 @@ background-color: rgb(55, 61, 56);
 }
 
 footer {
-    background-color: antiquewhite;
+    background-color: rgb(243, 240, 240);
     margin: 0px; 
     display: flex;
     justify-content: space-around; 
@@ -277,8 +292,5 @@ footer {
     background-color: antiquewhite;
 }
 
-@media (max-width: 700px) {
-
-}
 
   
