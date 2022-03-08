@@ -294,5 +294,56 @@ footer {
     background-color: antiquewhite;
 }
 
+@media only screen and (min-width : 901px) {
+    body {
+        width: 100%;
+    }
+    }
+ @media only screen and (max-width : 900px) {
+   
+    body {
+       width: 100%;
+   } 
 
-  
+    .designs {
+        display: block;
+    }
+
+    .navbar {
+        display: block;
+    }
+    .nav-left a:hover {
+        padding: 2px;
+        border: 1px solid gray;
+    }
+    .nav-rigth {
+        display: block;
+        border: 30px;
+    }
+    .nav-rigth a:hover {
+        padding: 2px;
+        border: 1px solid gray; 
+    }
+    .logo {
+        display: none;
+    }
+    .how {
+        display:block; 
+    }
+    .show-us {
+     display: block;
+    }
+    .container-grid {
+       display:none;
+    }
+    .phrase {
+       display: block;
+    }
+   .email {
+    display: block;
+   }
+   .social-media {
+    display: block;
+   }
+   
+ }
