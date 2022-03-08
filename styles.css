@@ -303,22 +303,21 @@ footer {
    
     body {
        width: 100%;
+       margin: 0 auto;
    } 
 
     .designs {
         display: block;
     }
 
-    .navbar {
-        display: block;
-    }
     .nav-left a:hover {
         padding: 2px;
         border: 1px solid gray;
     }
     .nav-rigth {
         display: block;
-        border: 30px;
+        padding-bottom: 5px;
+        border: 15px;
     }
     .nav-rigth a:hover {
         padding: 2px;
@@ -327,11 +326,14 @@ footer {
     .logo {
         display: none;
     }
+
     .how {
         display:block; 
     }
+   
     .show-us {
      display: block;
+     width: 100%;
     }
     .container-grid {
        display:none;
@@ -339,6 +341,10 @@ footer {
     .phrase {
        display: block;
     }
+    .contact {
+        display: block;
+    }
+
    .email {
     display: block;
    }
