@@ -308,6 +308,22 @@ footer {
 
     .designs {
         display: block;
+        margin: 0 auto; 
+        border: 0px;
+    }
+    
+    .example {
+        display: flex;
+        width: 300px; 
+    }
+
+    .excercise {
+        display: none; 
+    }
+
+    header {
+        display: block; 
+        text-align: center;
     }
 
     .nav-left a:hover {
@@ -326,9 +342,16 @@ footer {
     .logo {
         display: none;
     }
-
+    
+    .promotion {
+        display: block;
+    }
+    
+    main {
+        display: block; 
+    }
     .how {
-        display:block; 
+        display: block;
     }
    
     .show-us {
