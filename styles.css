@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background-color: rgb(243, 240, 240);
+    background-color: rgb(227, 206, 206);
     margin: 0px;
 } 
 
@@ -70,7 +70,7 @@ padding-left: 40px;
 }
 
 .jumbotron {
-    background-image: url("https://i.picsum.photos/id/1045/3936/2624.jpg?hmac=PMfAbC94Asle_jgeRYsj7zQHFabfTfsIwL247Ewetwc");
+    background-image: url("./assets/images/mountain.jpg");
     height: 700px;
     width: 100%;
     background-size: cover;
@@ -88,6 +88,11 @@ h1,
 .first-text {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
+
+}
+
+.first-text{
+    color: grey;
 }
 
 h2,
@@ -117,8 +122,8 @@ h2,
 
 .focus-on {
     display: flex;
-    border: 1px solid rgb(189, 188, 188);
-    background-color: rgb(189, 188, 188);
+    border: 1px solid rgb(169, 167, 167);
+    background-color:  rgb(169, 167, 167);
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -219,9 +224,9 @@ color: azure ;
 }
 
 .box {
-    border: 1px solid rgb(218, 215, 215);
+    border: 1px solid rgb(232, 201, 201);
     border-radius: 20px;
-    background-color: rgb(218, 215, 215);
+    background-color: rgb(227, 206, 206);
     color: aliceblue;
     text-align: center;
     font-family: monospace; 
@@ -244,7 +249,7 @@ background-color: rgb(55, 61, 56);
 }
 
 footer {
-    background-color: rgb(243, 240, 240);
+    background-color: rgb(227, 206, 206);
     margin: 0px; 
     display: flex;
     justify-content: space-around; 
