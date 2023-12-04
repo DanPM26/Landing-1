@@ -248,6 +248,10 @@ background-color: rgb(55, 61, 56);
    font-size: 30px;
 }
 
+#enviar{
+padding: 10px;
+background-color: antiquewhite;
+}
 footer {
     background-color: rgb(227, 206, 206);
     margin: 0px; 

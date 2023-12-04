@@ -45,9 +45,8 @@
 
         <div class="nav-rigth">
             <nav>
-                <a href="#">¿Quienes somos?</a>
-                <a href="#">Productos</a>
-                <a href="#">Servicios</a>
+                <a href="#quienesSomos">¿Quienes somos?</a>
+                <a href="#servicios">Servicios</a>
                 <a href="#contact-us">Contacto</a>
             </nav>
         </div>
@@ -61,7 +60,7 @@
         </div>
     </section>
 
-    <main>
+    <main id="quienesSomos">
             <article class="promotion">
             <div class="what">
                 <h1> We focus on you and your calm</h1>
@@ -104,7 +103,7 @@
             </div>
         </article>
 
-        <article class="focus-on">
+        <article class="focus-on" id="servicios">
             <div class="show-us">
                 <h1> Nos especializamos en la relajación.</h1>
                 <p> A través de diversas técnicas y herramientas te podemos garantizar que volveras a dormir y regresar a tu tranquilidad. <br> La diversidad de técnicas es importante para nosotros por lo que en algunas encontraras meditaciones budistas,Vipassana, Kundalini, Zazen, Tonglen, trascendental y chakra en combinación del Yoga y pilates.</p>
@@ -166,16 +165,14 @@
 
     <section class="contact">
         <h1 class="contacts">Contactanos y recibe la promoción del mes</h1>
-        <form>
-            <div>
-                <input type="text" placeholder="Nombre"> 
-                <input type="text" placeholder="Apellidos"> 
-                <input type="email" placeholder="Email">
-            </div>
-            <div>
-                <input type="submit" name="Enviar">
-            </div>
-        </form>  
+        <form onsubmit="enviar(event)">
+            
+                <input type="text" id="nombre" placeholder="Nombre"> 
+                <input type="text" id="apellidos" placeholder="Apellidos" > 
+                <input type="email" id="email" placeholder="Email" >
+                <button type="submit" id="enviar">Enviar</button>
+        </form> 
+        <section id="aviso"></section> 
     </section>
 
     <footer id="contact-us">
@@ -216,6 +213,6 @@
 
         </div>
     </footer>
-
+<script src="./index.js"></script>
 </body>
 </html>
